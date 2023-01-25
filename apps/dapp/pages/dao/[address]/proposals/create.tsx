@@ -1,7 +1,7 @@
 // GNU AFFERO GENERAL PUBLIC LICENSE Version 3. Copyright (C) 2022 DAO DAO Contributors.
 // See the "LICENSE" file in the root directory of this package for more copyright information.
 
-import { WalletConnectionStatus, useWallet } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWallet } from '@xiti/cosmodal'
 import cloneDeep from 'lodash.clonedeep'
 import type { GetStaticPaths, NextPage } from 'next'
 import { useRouter } from 'next/router'

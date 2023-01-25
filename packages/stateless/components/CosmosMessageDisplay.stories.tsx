@@ -19,7 +19,7 @@ Default.args = {
         amount: [
           {
             amount: '5000',
-            denom: 'ujuno',
+            denom: 'uterpx',
           },
         ],
         to_address: 'junoabcdef...xyz',

@@ -8,7 +8,7 @@ import {
 import { computeCompensation } from './utils'
 
 const nativeToken = (amount: number): NativeToken => ({
-  denom: 'ujuno',
+  denom: 'uterpx',
   amount: amount.toString(),
 })
 const cw20Token = (amount: number): Cw20Token => ({

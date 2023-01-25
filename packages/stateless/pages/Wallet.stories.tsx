@@ -26,8 +26,8 @@ export default {
     makeAppLayoutDecorator(),
     makeActionsProviderDecorator({
       address: 'junoWalletAddress',
-      chainId: 'juno-1',
-      bech32Prefix: 'juno',
+      chainId: 'athena-3',
+      bech32Prefix: 'terp',
       context: {
         type: ActionOptionsContextType.Wallet,
       },

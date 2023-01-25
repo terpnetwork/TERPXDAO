@@ -20,14 +20,14 @@ const Template: ComponentStory<typeof AddressInput> = (args) => {
 export const Default = Template.bind({})
 Default.args = {
   fieldName: 'fieldName' as any,
-  placeholder: 'juno...',
+  placeholder: 'terp...',
   EntityDisplay,
 }
 
 export const AutofillProfile = Template.bind({})
 AutofillProfile.args = {
   fieldName: 'fieldName' as any,
-  placeholder: 'juno...',
+  placeholder: 'terp...',
   type: 'wallet',
   EntityDisplay,
   autofillProfiles: {

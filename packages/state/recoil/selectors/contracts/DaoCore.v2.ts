@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 import { selectorFamily, waitForAll } from 'recoil'
 
 import { WithChainId } from '@dao-dao/types'
@@ -225,8 +225,8 @@ export const dumpStateSelector = selectorFamily<
       // Try indexer first if loading featured mainnet DAO.
       if (
         ((queryClientParams.chainId === undefined &&
-          CHAIN_ID === ChainInfoID.Juno1) ||
-          queryClientParams.chainId === ChainInfoID.Juno1) &&
+          CHAIN_ID === ChainInfoID.Terpnet1) ||
+          queryClientParams.chainId === ChainInfoID.Terpnet1) &&
         featuredDaos.some(
           ({ coreAddress }) => coreAddress === queryClientParams.contractAddress
         )

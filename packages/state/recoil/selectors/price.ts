@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 import { selectorFamily } from 'recoil'
 
 import {
@@ -27,7 +27,7 @@ import { junoswapPoolsListSelector } from './pools'
 // TODO(multichain): Figure out how to match CW20s on other chains to CW20s in
 // Junoswap pools so we can check prices.
 
-const BASE_SWAP_DENOM = 'ujuno'
+const BASE_SWAP_DENOM = 'uterpx'
 const BASE_SWAP_DECIMALS = 6
 
 // Gets the price of a token in USDC / TOKEN. DENOM may either be a native
@@ -190,7 +190,7 @@ export const wasmswapToken1PriceInToken2Selector = selectorFamily<
       // If indexer query fails, fallback to contract query.
 
       // Junoswap exists on Juno mainnet.
-      const client = get(cosmWasmClientForChainSelector(ChainInfoID.Juno1))
+      const client = get(cosmWasmClientForChainSelector(ChainInfoID.Terpnet1))
       // Query for price of 1*10^BASE_SWAP_DECIMALS tokens since decimals are
       // not returned by API. This will give us up to 10^-BASE_SWAP_DECIMALS
       // precision for calculations.
@@ -219,7 +219,7 @@ export const wasmswapToken1PriceInToken2With24HoursAgoSelector = selectorFamily<
     ({ swapAddress }) =>
     async ({ get }) => {
       const timestamp = new Date()
-      const chainId = ChainInfoID.Juno1
+      const chainId = ChainInfoID.Terpnet1
 
       const currentBlockHeight = get(blockHeightSelector({ chainId }))
       const blocksPerYear = get(blocksPerYearSelector({ chainId }))

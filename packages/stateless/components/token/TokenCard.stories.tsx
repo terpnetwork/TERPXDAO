@@ -20,7 +20,7 @@ const Template: ComponentStory<typeof TokenCard> = (args) => (
 )
 
 const denomProps = {
-  denom: 'ujuno',
+  denom: 'uterpx',
   symbol: 'JUNO',
   decimals: 6,
 }
@@ -95,7 +95,7 @@ export const makeProps = (crown = false): TokenCardProps => {
     crown,
     imageUrl: `/placeholders/${Math.floor(Math.random() * 5) + 1}.svg`,
     tokenSymbol: 'JUNO',
-    tokenDenom: 'ujuno',
+    tokenDenom: 'uterpx',
     subtitle: 'Juno Network',
     unstakedBalance,
     tokenDecimals: 6,

@@ -62,7 +62,7 @@ Default.args = {
   ],
   prices: [
     {
-      denom: 'ujuno',
+      denom: 'uterpx',
       amount: 1,
       timestamp: new Date(),
     },

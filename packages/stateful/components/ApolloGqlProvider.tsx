@@ -6,7 +6,7 @@ import {
   createHttpLink,
 } from '@apollo/client/core'
 import { MultiAPILink } from '@habx/apollo-multi-endpoint-link'
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 import { ReactNode } from 'react'
 
 import { CHAIN_ID } from '@dao-dao/utils'
@@ -17,7 +17,7 @@ const apolloClient = new ApolloClient({
       endpoints: {
         // Switch indexer based on chain.
         proposals:
-          CHAIN_ID === ChainInfoID.Juno1
+          CHAIN_ID === ChainInfoID.Terpnet1
             ? 'https://index.daodao.zone/proposals'
             : 'https://index.daodao.zone/testnet-proposals',
         // Juno Loop NFT Market

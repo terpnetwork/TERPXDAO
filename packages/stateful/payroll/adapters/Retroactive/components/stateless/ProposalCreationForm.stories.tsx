@@ -41,7 +41,7 @@ Default.args = {
               averageRating: 0,
               nativeTokens: [
                 {
-                  denom: 'ujuno',
+                  denom: 'uterpx',
                   amount: '0',
                 },
               ],
@@ -51,7 +51,7 @@ Default.args = {
               averageRating: 30,
               nativeTokens: [
                 {
-                  denom: 'ujuno',
+                  denom: 'uterpx',
                   amount: '10000000000',
                 },
               ],
@@ -77,7 +77,7 @@ Default.args = {
               averageRating: 100,
               nativeTokens: [
                 {
-                  denom: 'ujuno',
+                  denom: 'uterpx',
                   amount: '15000000000',
                 },
               ],
@@ -87,7 +87,7 @@ Default.args = {
               averageRating: 75,
               nativeTokens: [
                 {
-                  denom: 'ujuno',
+                  denom: 'uterpx',
                   amount: '25000000000',
                 },
               ],
@@ -147,7 +147,7 @@ Default.args = {
   ],
   prices: [
     {
-      denom: 'ujuno',
+      denom: 'uterpx',
       amount: 1,
       timestamp: new Date(),
     },

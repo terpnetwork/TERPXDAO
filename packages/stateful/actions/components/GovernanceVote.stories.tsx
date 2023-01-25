@@ -47,7 +47,7 @@ const makeProposal = (): GovProposalWithDecodedContent => ({
   depositEndTime: new Date('2022-10-03T22:56:17.961690524Z'),
   totalDeposit: [
     {
-      denom: 'ujunox',
+      denom: 'uterpx',
       amount: '500000000',
     },
   ],

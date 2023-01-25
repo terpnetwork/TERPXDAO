@@ -42,7 +42,7 @@ export const makeSurvey = (): Survey => ({
       name: 'Financial value',
       nativeTokens: [
         {
-          denom: 'ujuno',
+          denom: 'uterpx',
           amount: '25000000000',
         },
       ],

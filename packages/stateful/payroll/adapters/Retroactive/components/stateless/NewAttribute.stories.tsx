@@ -24,7 +24,7 @@ export const makeTokenProps = (): Pick<
   NewAttributeProps,
   'nativeDenoms' | 'cw20TokenInfos'
 > => ({
-  nativeDenoms: ['ujuno', 'uatom'],
+  nativeDenoms: ['uterpx', 'uatom'],
   cw20TokenInfos: [
     {
       address: 'junoDAO',

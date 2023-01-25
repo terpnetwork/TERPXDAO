@@ -33,5 +33,5 @@ export interface CodeIdConfig {
 }
 
 export interface ChainPrefixIdMap {
-  juno: string
+  terp: string
 }

@@ -52,5 +52,5 @@ export default async function handler(
 
 const CHAIN_INDEXER_MAP: Record<string, string | undefined> = {
   'uni-5': 'https://indexer-testnet.daodao.zone',
-  'juno-1': 'https://indexer-mainnet.daodao.zone',
+  'athena-3': 'http://45.55.129.82:3420',
 }
